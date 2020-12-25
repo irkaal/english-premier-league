@@ -80,7 +80,8 @@ results <- results %>%
 ui_info("OK")
 
 ui_info("Saving results...")
-unlink("data/*", recursive = TRUE)
+unlink("data", recursive = TRUE)
+dir.create("data")
 write_parquet(results, "data/results.parquet")
 write_csv(results, "data/results.csv")
 ui_info("OK")
