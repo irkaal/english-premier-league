@@ -1,13 +1,9 @@
 suppressPackageStartupMessages({
   library(arrow)
-  library(dplyr)
   library(furrr)
   library(lubridate)
-  library(purrr)
-  library(readr)
   library(rvest)
-  library(stringr)
-  library(tidyr)
+  library(tidyverse)
   library(usethis)
 })
 
@@ -16,7 +12,7 @@ paths <-
   read_html("https://www.football-data.co.uk/englandm.php") %>%
   html_nodes(css = "a:contains('Premier League')") %>%
   html_attr("href") %>%
-  map_chr( ~ str_c("https://www.football-data.co.uk/", .)) %>%
+  map_chr(~ str_c("https://www.football-data.co.uk/", .)) %>%
   rev()
 ui_info("OK")
 
@@ -56,10 +52,10 @@ read <- function(path) {
     ) %>%
       drop_na(Date) %>%
       mutate(
-        Season = str_sub(path,-11L,-10L) %>%
+        Season = str_sub(path, -11L, -10L) %>%
           as_date(format = "%y") %>%
           year() %>%
-          str_c("-", str_sub(path,-9L,-8L))
+          str_c("-", str_sub(path, -9L, -8L))
       )
   )
 }
