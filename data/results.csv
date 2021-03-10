@@ -10671,3 +10671,31 @@ Season,DateTime,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HTHG,HTAG,HTR,Referee,HS,AS,HST,
 2020-21,2021-02-21T19:00:00Z,Man United,Newcastle,3,1,H,1,1,D,P Tierney,15,10,7,6,6,4,9,11,1,2,0,0
 2020-21,2021-02-22T20:00:00Z,Brighton,Crystal Palace,1,2,A,0,1,A,K Friend,25,3,5,2,13,0,11,6,2,0,0,0
 2020-21,2021-02-23T18:00:00Z,Leeds,Southampton,3,0,H,0,0,D,A Marriner,11,13,7,5,2,4,11,13,1,2,0,0
+2020-21,2021-02-27T12:30:00Z,Man City,West Ham,2,1,H,1,1,D,M Oliver,10,9,3,3,4,2,8,11,1,1,0,0
+2020-21,2021-02-27T15:00:00Z,West Brom,Brighton,1,0,H,1,0,H,L Mason,6,15,2,6,7,4,11,12,0,0,0,0
+2020-21,2021-02-27T17:30:00Z,Leeds,Aston Villa,0,1,A,0,1,A,P Bankes,13,9,3,4,7,5,14,14,3,2,0,0
+2020-21,2021-02-27T20:00:00Z,Newcastle,Wolves,1,1,D,0,0,D,M Dean,19,14,7,4,3,5,11,13,2,0,0,0
+2020-21,2021-02-28T12:00:00Z,Crystal Palace,Fulham,0,0,D,0,0,D,A Taylor,3,16,0,4,1,3,10,14,1,1,0,0
+2020-21,2021-02-28T12:00:00Z,Leicester,Arsenal,1,3,A,1,2,A,P Tierney,8,12,3,4,2,7,15,3,2,1,0,0
+2020-21,2021-02-28T14:00:00Z,Tottenham,Burnley,4,0,H,3,0,H,K Friend,16,10,7,3,3,4,6,10,0,0,0,0
+2020-21,2021-02-28T16:30:00Z,Chelsea,Man United,0,0,D,0,0,D,S Attwell,18,11,6,4,3,4,11,12,1,2,0,0
+2020-21,2021-02-28T19:15:00Z,Sheffield United,Liverpool,0,2,A,0,0,D,J Moss,8,16,2,8,4,3,9,9,0,0,0,0
+2020-21,2021-03-01T20:00:00Z,Everton,Southampton,1,0,H,1,0,H,M Atkinson,7,9,1,1,4,10,13,9,0,2,0,0
+2020-21,2021-03-02T20:00:00Z,Man City,Wolves,4,1,H,1,0,H,C Kavanagh,22,6,10,1,10,2,9,5,0,1,0,0
+2020-21,2021-03-03T18:00:00Z,Burnley,Leicester,1,1,D,1,1,D,A Madley,12,15,7,4,5,8,6,12,0,2,0,0
+2020-21,2021-03-03T18:00:00Z,Sheffield United,Aston Villa,1,0,H,1,0,H,R Jones,9,16,2,4,2,7,13,6,1,0,1,0
+2020-21,2021-03-03T20:15:00Z,Crystal Palace,Man United,0,0,D,0,0,D,A Marriner,8,11,2,1,4,6,4,13,1,0,0,0
+2020-21,2021-03-04T18:00:00Z,Fulham,Tottenham,0,1,A,0,1,A,D Coote,11,9,3,2,4,1,13,9,2,1,0,0
+2020-21,2021-03-04T18:00:00Z,West Brom,Everton,0,1,A,0,0,D,D England,11,11,3,3,3,3,9,7,3,1,0,0
+2020-21,2021-03-04T20:15:00Z,Liverpool,Chelsea,0,1,A,0,1,A,M Atkinson,7,11,1,5,5,2,9,8,0,0,0,0
+2020-21,2021-03-06T12:30:00Z,Burnley,Arsenal,1,1,D,1,1,D,A Marriner,9,15,5,3,2,4,5,12,1,1,0,0
+2020-21,2021-03-06T15:00:00Z,Sheffield United,Southampton,0,2,A,0,1,A,P Tierney,8,15,2,5,7,3,17,11,4,3,0,0
+2020-21,2021-03-06T17:30:00Z,Aston Villa,Wolves,0,0,D,0,0,D,A Madley,9,10,1,2,5,3,13,13,1,0,0,0
+2020-21,2021-03-06T20:00:00Z,Brighton,Leicester,1,2,A,1,0,H,M Oliver,7,8,2,4,6,6,14,8,0,1,0,0
+2020-21,2021-03-07T12:00:00Z,West Brom,Newcastle,0,0,D,0,0,D,M Atkinson,13,9,3,5,9,7,11,10,0,0,0,0
+2020-21,2021-03-07T14:00:00Z,Liverpool,Fulham,0,1,A,0,1,A,K Friend,16,10,3,3,9,4,10,8,2,3,0,0
+2020-21,2021-03-07T16:30:00Z,Man City,Man United,0,2,A,0,1,A,A Taylor,23,8,6,6,6,2,9,12,0,3,0,0
+2020-21,2021-03-07T19:15:00Z,Tottenham,Crystal Palace,4,1,H,1,1,D,S Attwell,12,5,5,1,1,5,8,17,2,3,0,0
+2020-21,2021-03-08T18:00:00Z,Chelsea,Everton,2,0,H,1,0,H,D Coote,19,7,9,1,7,3,11,12,0,3,0,0
+2020-21,2021-03-08T20:00:00Z,West Ham,Leeds,2,0,H,2,0,H,M Dean,16,17,5,2,6,6,9,9,1,1,0,0
+2020-21,2021-03-10T18:00:00Z,Man City,Southampton,5,2,H,3,1,H,J Moss,17,11,10,6,5,5,6,4,1,0,0,0
