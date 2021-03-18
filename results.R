@@ -7,17 +7,18 @@ suppressPackageStartupMessages({
   library(usethis)
 })
 
+plan(multisession)
+
 ui_info("Retrieving paths...")
-paths <-
-  read_html("https://www.football-data.co.uk/englandm.php") %>%
+url <- "https://www.football-data.co.uk/englandm.php"
+paths <- read_html(url) %>%
   html_nodes(css = "a:contains('Premier League')") %>%
   html_attr("href") %>%
   map_chr(~ str_c("https://www.football-data.co.uk/", .)) %>%
   rev()
-ui_info("OK")
+ui_done("OK")
 
 ui_info("Retrieving results...")
-plan(multisession)
 read <- function(path) {
   suppressWarnings(
     read_csv(
@@ -61,7 +62,7 @@ read <- function(path) {
 }
 results <- future_map_dfr(paths, read, .progress = TRUE)
 cat("\n")
-ui_info("OK")
+ui_done("OK")
 
 ui_info("Parsing dates...")
 results <- results %>%
@@ -73,11 +74,11 @@ results <- results %>%
     Time = NULL
   ) %>%
   select(Season, DateTime, everything())
-ui_info("OK")
+ui_done("OK")
 
 ui_info("Saving results...")
 unlink("data", recursive = TRUE)
 dir.create("data")
 write_parquet(results, "data/results.parquet")
 write_csv(results, "data/results.csv")
-ui_info("OK")
+ui_done("OK")
