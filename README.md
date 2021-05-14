@@ -1,4 +1,4 @@
-# English Premier League Results from 1993-94 to 2020-21
+# English Premier League Results
 
 ## Introduction
 
